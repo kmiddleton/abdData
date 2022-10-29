@@ -1,0 +1,11 @@
+^\.Rproj\.user$
+^\.gitignore$
+^\.git$
+^README\.md$
+^.DS\_Store$
+^abdData\.Rproj$
+^bin$
+^\.github$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
