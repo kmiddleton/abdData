@@ -6,8 +6,8 @@
 #'
 #' \tabular{ll}{ Package: \tab abdData\cr
 #'               Type: \tab Package\cr
-#'               Version: \tab 0.2-9\cr
-#'               Date: \tab 2022-10-28\cr
+#'               Version: \tab 0.2-10\cr
+#'               Date: \tab 2022-11-16\cr
 #'               License: \tab GPL\cr
 #'               LazyLoad: \tab yes\cr
 #'               LazyData: \tab yes\cr }
@@ -22,33 +22,6 @@
 #' 0981519407.
 #' \url{http://www.roberts-publishers.com/biology/the-analysis-of-biological-data.html}
 #' @keywords package
-#' @examples
-#'
-#' abdData(3)                        # look for data sets in chapter 3
-#' abdData('Finch')                  # look for data sets with 'finch' in name
-#'
-NULL
-
-
-#' \code{abd} Data Sets
-#'
-#' Information about the location of data sets in \emph{Analysis of Biological
-#' Data}
-#'
-#'
-#' @name dataInfo
-#' @docType data
-#' @format A data frame with 143 observations on the following 5 variables.
-#' \describe{ \item{name}{name of data set}
-#' \item{chapter}{chapter in which data set appears}
-#' \item{type}{used in an \code{Example} or a \code{Problem}}
-#' \item{number}{example or problem number}
-#' \item{sub}{sub-problem: \code{} \code{a} \code{b} \code{c}} }
-#' @seealso \code{\link{abdData}}
-#' @keywords datasets
-#' @examples
-#'
-#' str(dataInfo)
 #'
 NULL
 

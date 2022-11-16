@@ -13,17 +13,11 @@ Schluter (2009; Roberts and Company Publishers).
 \details{
 \tabular{ll}{ Package: \tab abdData\cr
               Type: \tab Package\cr
-              Version: \tab 0.2-9\cr
-              Date: \tab 2022-10-28\cr
+              Version: \tab 0.2-10\cr
+              Date: \tab 2022-11-16\cr
               License: \tab GPL\cr
               LazyLoad: \tab yes\cr
               LazyData: \tab yes\cr }
-}
-\examples{
-
-abdData(3)                        # look for data sets in chapter 3
-abdData('Finch')                  # look for data sets with 'finch' in name
-
 }
 \references{
 Whitlock, M.C. and D. Schluter. 2009. \emph{The Analysis of
