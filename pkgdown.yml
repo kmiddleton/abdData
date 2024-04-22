@@ -1,8 +1,8 @@
-pandoc: 2.19.2
-pkgdown: 2.0.6
+pandoc: 3.1.11
+pkgdown: 2.0.9
 pkgdown_sha: ~
 articles: {}
-last_built: 2022-11-16T15:04Z
+last_built: 2024-04-22T13:17Z
 urls:
   reference: https://middleton-lab.github.io/abdData/reference
   article: https://middleton-lab.github.io/abdData/articles
