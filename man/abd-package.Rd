@@ -2,6 +2,8 @@
 % Please edit documentation in R/datasets.R
 \docType{package}
 \name{abd-package}
+\alias{abdData}
+\alias{abdData-package}
 \alias{abd-package}
 \alias{abd}
 \title{Data sets from The Analysis of Biological Data}
@@ -13,8 +15,8 @@ Schluter (2009; Roberts and Company Publishers).
 \details{
 \tabular{ll}{ Package: \tab abdData\cr
               Type: \tab Package\cr
-              Version: \tab 0.2-10\cr
-              Date: \tab 2022-11-16\cr
+              Version: \tab 0.2-11\cr
+              Date: \tab 2024-04-22\cr
               License: \tab GPL\cr
               LazyLoad: \tab yes\cr
               LazyData: \tab yes\cr }
@@ -24,6 +26,13 @@ Whitlock, M.C. and D. Schluter. 2009. \emph{The Analysis of
 Biological Data, 1st Edition}. Roberts and Company Publishers. ISBN:
 0981519407.
 \url{http://www.roberts-publishers.com/biology/the-analysis-of-biological-data.html}
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://middleton-lab.github.io/abdData/}
+}
+
 }
 \author{
 Kevin M. Middleton (\url{middletonk@missouri.edu}); Randall Pruim

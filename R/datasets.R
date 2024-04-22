@@ -6,15 +6,14 @@
 #'
 #' \tabular{ll}{ Package: \tab abdData\cr
 #'               Type: \tab Package\cr
-#'               Version: \tab 0.2-10\cr
-#'               Date: \tab 2022-11-16\cr
+#'               Version: \tab 0.2-11\cr
+#'               Date: \tab 2024-04-22\cr
 #'               License: \tab GPL\cr
 #'               LazyLoad: \tab yes\cr
 #'               LazyData: \tab yes\cr }
 #'
 #' @name abd-package
 #' @aliases abd-package abd
-#' @docType package
 #' @author Kevin M. Middleton (\url{middletonk@@missouri.edu}); Randall Pruim
 #' (\url{rpruim@@calvin.edu})
 #' @references Whitlock, M.C. and D. Schluter. 2009. \emph{The Analysis of
@@ -23,7 +22,7 @@
 #' \url{http://www.roberts-publishers.com/biology/the-analysis-of-biological-data.html}
 #' @keywords package
 #'
-NULL
+"_PACKAGE"
 
 
 #' Carbon Dioxide and Growth Rate in Algae
@@ -33,7 +32,6 @@ NULL
 #' carbon dioxide.
 #'
 #'
-#' @name AlgaeCO2
 #' @docType data
 #' @format A data frame with 14 observations on the following 2 variables.
 #' \describe{ \item{treatment}{a factor with levels \code{Normal} and
@@ -43,7 +41,7 @@ NULL
 #' \emph{Nature} 431: 566-569.
 #' @keywords datasets
 #'
-NULL
+"AlgaeCO2"
 
 
 #' Antilles Bird Immigration Dates
@@ -64,7 +62,7 @@ NULL
 #' \emph{Science} 294: 1522-1524.
 #' @keywords datasets
 #'
-NULL
+"Antilles"
 
 
 #' Effects of Aspirin on Cancer Rates
@@ -72,7 +70,6 @@ NULL
 #' Frequency of cancer in 39,876 women taking and not taking aspirin.
 #'
 #'
-#' @name Aspirin
 #' @docType data
 #' @format A data frame with 39876 observations on the following \describe{
 #' \item{treatment}{a factor with levels \code{Aspirin} and
@@ -85,7 +82,7 @@ NULL
 #' Association} 294: 47-55.
 #' @keywords datasets
 #'
-NULL
+"Aspirin"
 
 
 #' Foraging Gene Expression
@@ -95,7 +92,6 @@ NULL
 #' that \code{colony} is not coded as a factor.
 #'
 #'
-#' @name BeeGenes
 #' @docType data
 #' @format A data frame with 6 observations on the following 3 variables.
 #' \describe{ \item{type}{a factor with levels \code{forager}
@@ -106,7 +102,7 @@ NULL
 #' \emph{Science} 296: 741-744.
 #' @keywords datasets
 #'
-NULL
+"BeeGenes"
 
 
 #' Bee Lifespans
@@ -114,7 +110,6 @@ NULL
 #' Lifespan of 33 foraging honey bees.
 #'
 #'
-#' @name BeeLifespans
 #' @docType data
 #' @format A data frame with 33 observations on the following variable.
 #' \describe{ \item{hours}{a numeric vector} }
@@ -122,7 +117,7 @@ NULL
 #' of foraging honey bees. \emph{Insectes Sociaux} 44: 1-5.
 #' @keywords datasets
 #'
-NULL
+"BeeLifespans"
 
 
 #' Beetle Wings and Horns
@@ -131,7 +126,6 @@ NULL
 #' sagittarius} beetles.
 #'
 #'
-#' @name Beetles
 #' @docType data
 #' @format A data frame with 19 observations on the following 2 variables.
 #' \describe{ \item{horn.size}{a numeric vector}
@@ -142,14 +136,14 @@ NULL
 #' animal structures. \emph{Science} 291: 1534-1536.
 #' @keywords datasets
 #'
-NULL
+"Beetles"
+
 
 #' Sex Ratios in Birds
 #'
 #' Correlation coefficient of sex ratio in bird offspring.
 #'
 #'
-#' @name BirdSexRatio
 #' @docType data
 #' @format A data frame with 15 observations of one variable \describe{
 #' \item{corr.coeff}{correlation coefficient of sex ratio in bird
@@ -158,7 +152,7 @@ NULL
 #' sex ratio adjustment. \emph{Science} 295: 1695-1688.
 #' @keywords datasets
 #'
-NULL
+"BirdSexRatio"
 
 
 #' Testosterone Levels in Blackbirds
@@ -168,7 +162,6 @@ NULL
 #' levels
 #'
 #'
-#' @name Blackbirds
 #' @docType data
 #' @format A data frame with 13 observations on the following 6 variables.
 #' \describe{ \item{before}{a numeric vector} \item{after}{a
@@ -180,7 +173,7 @@ NULL
 #' Ecology and Sociobiology} 45: 167-175.
 #' @keywords datasets
 #'
-NULL
+"Blackbirds"
 
 
 #' Heat Loss and Body Fat
@@ -198,7 +191,7 @@ NULL
 #' swimming in cold water. \emph{Journal of Applied Physiology} 35: 371-375.
 #' @keywords datasets
 #'
-NULL
+"BodyFatHeatLoss"
 
 
 #' Proteolipid Protein 1 Gene Expression
@@ -207,7 +200,6 @@ NULL
 #' \code{PLP1.expression}) in 45 individuals in one of three \code{group}s.
 #'
 #'
-#' @name BrainExpression
 #' @docType data
 #' @format A data frame with 45 observations on the following 2 variables.
 #' \describe{ \item{group}{a factor with levels: \code{bipolar},
@@ -219,7 +211,7 @@ NULL
 #' disorder. \emph{Lancet} 362(9386): 798-805.
 #' @keywords datasets
 #'
-NULL
+"BrainExpression"
 
 
 #' Salmon Survival in the Presence of Brook Trout
@@ -230,7 +222,6 @@ NULL
 #' (\code{proportion.surviving}) is given for each stream.
 #'
 #'
-#' @name BrookTrout
 #' @aliases BrookTrout BrookTrout2
 #' @docType data
 #' @format \code{BrookTrout} is a data frame with 12 observations on the
@@ -248,8 +239,10 @@ NULL
 #' Biological Sciences} 269: 1663-1670.
 #' @keywords datasets
 #'
-#'
-NULL
+"BrookTrout"
+
+
+
 
 
 #' Deaths from Horse Kicks
@@ -258,7 +251,6 @@ NULL
 #' Prussian army.
 #'
 #'
-#' @name Cavalry
 #' @docType data
 #' @format A data frame with 5 observations on the following 2 variables.
 #' \describe{ \item{deaths}{a numeric vector} \item{count}{a
@@ -269,7 +261,7 @@ NULL
 #' Prentice-Hall: Englewood Cliffs, NJ.
 #' @keywords datasets
 #'
-NULL
+"Cavalry"
 
 
 #' Alarm Calls in Chickadees
@@ -278,7 +270,6 @@ NULL
 #' atricapilla}) for 13 predator species with differing body masses.
 #'
 #'
-#' @name Chickadees
 #' @docType data
 #' @format A data frame with 13 observations on the following 3 variables.
 #' \describe{ \item{species}{a character vector} \item{mass}{a
@@ -289,7 +280,7 @@ NULL
 #' \emph{Science} 308: 1934-1937.
 #' @keywords datasets
 #'
-NULL
+"Chickadees"
 
 
 #' Brodmann's Area 44 in Chimps
@@ -297,7 +288,6 @@ NULL
 #' Asymmetry of Brodmann's area 44 in 20 chimpanzees.
 #'
 #'
-#' @name ChimpBrains
 #' @docType data
 #' @format A data frame with 20 observations on the following 3 variables.
 #' \describe{ \item{name}{name of chimp} \item{sex}{a factor
@@ -307,7 +297,7 @@ NULL
 #' great apes. \emph{Nature} 414: 505.
 #' @keywords datasets
 #'
-NULL
+"ChimpBrains"
 
 
 #' Cichlid Mating Preference
@@ -316,7 +306,6 @@ NULL
 #' Victoria, \emph{Pundamilia pundamilia} and \emph{P. nyererei}.
 #'
 #'
-#' @name Cichlids
 #' @docType data
 #' @format A data frame with 53 observations on the following 2 variables.
 #' \describe{ \item{genotype}{a factor with levels \code{F1} and
@@ -329,7 +318,7 @@ NULL
 #' London, Series B, Biological Sciences} 272: 237-245.
 #' @keywords datasets
 #'
-NULL
+"Cichlids"
 
 
 #' GnRH Levels in Cichlids
@@ -339,7 +328,6 @@ NULL
 #' = 6) territorial.
 #'
 #'
-#' @name CichlidsGnRH
 #' @docType data
 #' @format A data frame with 11 observations on the following 2 variables.
 #' \describe{ \item{territorial}{a factor with levels \code{No} and
@@ -350,7 +338,7 @@ NULL
 #' 2567-2581.
 #' @keywords datasets
 #'
-NULL
+"CichlidsGnRH"
 
 
 #' Biomass Change in Rainforests near Clearcuts
@@ -359,7 +347,6 @@ NULL
 #' 50 m to several kilometers.
 #'
 #'
-#' @name Clearcuts
 #' @docType data
 #' @format A data frame with 36 observations of one variable. \describe{
 #' \item{biomass.change}{} }
@@ -370,7 +357,7 @@ NULL
 #' fragments. \emph{Science} 278: 1117-1118.
 #' @keywords datasets
 #'
-NULL
+"Clearcuts"
 
 
 #' Effects of Cocaine on Dopamine Receptors
@@ -380,7 +367,6 @@ NULL
 #' humans.
 #'
 #'
-#' @name CocaineDopamine
 #' @docType data
 #' @format A data frame with 34 observations on the following 2 variables.
 #' \describe{ \item{percent.blocked}{a numeric vector}
@@ -393,7 +379,7 @@ NULL
 #' occupancy. \emph{Nature} 386: 827-830.
 #' @keywords datasets
 #'
-NULL
+"CocaineDopamine"
 
 
 #' Frequency of Convictions for a Cohort of English Boys
@@ -401,7 +387,6 @@ NULL
 #' Data on frequency of convictions for a cohort of 395 boys.
 #'
 #'
-#' @name Convictions
 #' @docType data
 #' @format A data frame with 15 observations on the following 2 variables.
 #' \describe{ \item{convictions}{number of convictions}
@@ -412,7 +397,7 @@ NULL
 #' Consortium for Political and Social Research, Ann Arbor, MI.
 #' @keywords datasets
 #'
-NULL
+"Convictions"
 
 
 #' Convictions and Income Level in a Cohort of English Boys
@@ -421,7 +406,6 @@ NULL
 #' income level.
 #'
 #'
-#' @name ConvictionsAndIncome
 #' @docType data
 #' @format A data frame with 395 observations on the following 2 variables.
 #' \describe{ \item{convicted}{a factor with levels \code{no} and
@@ -433,7 +417,7 @@ NULL
 #' Consortium for Political and Social Research, Ann Arbor, MI.
 #' @keywords datasets
 #'
-NULL
+"ConvictionsAndIncome"
 
 
 #' Immunity and Sperm Viability in Crickets
@@ -442,7 +426,6 @@ NULL
 #' crickets. Each observation is a mean for a single family of males.
 #'
 #'
-#' @name Crickets
 #' @docType data
 #' @format A data frame with 41 observations on the following 2 variables.
 #' \describe{ \item{sperm.viability}{a numeric vector}
@@ -451,7 +434,7 @@ NULL
 #' sperm viability in male crickets. \emph{Science} 309: 2031.
 #' @keywords datasets
 #'
-NULL
+"Crickets"
 
 
 #' DEET and Mosquito Bites
@@ -459,7 +442,6 @@ NULL
 #' Administered dose of DEET and number of mosquito bites for 52 women.
 #'
 #'
-#' @name DEET
 #' @docType data
 #' @format A data frame with 52 observations on the following 2 variables.
 #' \describe{ \item{dose}{a numeric vector} \item{bites}{a
@@ -470,7 +452,7 @@ NULL
 #' Tropical Medicine and Hygiene} 60: 654-657.
 #' @keywords datasets
 #'
-NULL
+"DEET"
 
 
 #' Daphnia Longevity
@@ -478,7 +460,6 @@ NULL
 #' Number of spores and host longevity in the crustacean \emph{Daphnia magna}.
 #'
 #'
-#' @name DaphniaLongevity
 #' @docType data
 #' @format A data frame with 32 observations on the following 2 variables.
 #' \describe{ \item{longevity}{a numeric vector}
@@ -490,7 +471,7 @@ NULL
 #' Biology} 4(7): e197
 #' @keywords datasets
 #'
-NULL
+"DaphniaLongevity"
 
 
 #' Daphnia Resistance to Cyanobacteria
@@ -499,7 +480,6 @@ NULL
 #' (\code{cyandensity}) from 1962-1997.
 #'
 #'
-#' @name DaphniaResistance
 #' @docType data
 #' @format A data frame with 32 observations on the following 2 variables.
 #' \describe{ \item{density}{a factor with levels: \code{high},
@@ -509,7 +489,7 @@ NULL
 #' Post. 1999. Dormant eggs record rapid evolution. \emph{Nature} 401: 446.
 #' @keywords datasets
 #'
-NULL
+"DaphniaResistance"
 
 
 #' Day of Birth
@@ -517,7 +497,6 @@ NULL
 #' Day of the week for 350 U.S. births in 1999.
 #'
 #'
-#' @name DayOfBirth
 #' @docType data
 #' @format A data frame with 7 observations on the following 2 variables.
 #' \describe{ \item{day}{a character vector} \item{births}{a
@@ -528,7 +507,7 @@ NULL
 #' Reports} Vol. 49, No. 1.
 #' @keywords datasets
 #'
-NULL
+"DayOfBirth"
 
 
 #' Desert Bird Census Data
@@ -536,7 +515,6 @@ NULL
 #' Census data for desert birds.
 #'
 #'
-#' @name DesertBirds
 #' @docType data
 #' @format A data frame with 43 observations on the following 2 variables.
 #' \describe{ \item{species}{a character vector} \item{count}{a
@@ -547,7 +525,7 @@ NULL
 #' Patuxent Wildlife Research Center, Laurel, MD.
 #' @keywords datasets
 #'
-NULL
+"DesertBirds"
 
 
 #' Dioecy vs. Monomorphism in Plants
@@ -556,7 +534,6 @@ NULL
 #' closely related plants.
 #'
 #'
-#' @name Dioecy
 #' @docType data
 #' @format A data frame with 28 observations on the following 3 variables.
 #' \describe{ \item{dioecious}{a numeric vector}
@@ -566,7 +543,7 @@ NULL
 #' \emph{The American Naturalist} 156: 221-241.
 #' @keywords datasets
 #'
-NULL
+"Dioecy"
 
 
 #' Dolphin Swimming Behavior
@@ -575,7 +552,6 @@ NULL
 #' swimming clockwise.
 #'
 #'
-#' @name Dolphins
 #' @docType data
 #' @format A data frame with 8 observations on one variable. \describe{
 #' \item{percent.clockwise}{percent of time spent swimming clockwise
@@ -586,7 +562,7 @@ NULL
 #' Behavior} 82: 919-926.
 #' @keywords datasets
 #'
-NULL
+"Dolphins"
 
 
 #' Heritability of Body Condition in Dung Beetles
@@ -596,7 +572,6 @@ NULL
 #' virgin females.
 #'
 #'
-#' @name DungBeetles
 #' @docType data
 #' @format A data frame with 36 observations on the following 2 variables.
 #' \describe{ \item{id}{a numeric vector}
@@ -608,7 +583,7 @@ NULL
 #' 2001. Towards a resolution of the lek paradox. \emph{Nature} 410: 684-686.
 #' @keywords datasets
 #'
-NULL
+"DungBeetles"
 
 
 #' Earthworm Diversity and Soil Nitrogen Levels
@@ -617,7 +592,6 @@ NULL
 #' hardwood forest plots.
 #'
 #'
-#' @name Earthworms
 #' @docType data
 #' @format A data frame with 39 observations on the following 2 variables.
 #' \describe{ \item{worm.species}{a numeric vector}
@@ -629,7 +603,7 @@ NULL
 #' Biology} 19: 1075-1083.
 #' @keywords datasets
 #'
-NULL
+"Earthworms"
 
 
 #' Earwig Density and Forceps
@@ -638,7 +612,6 @@ NULL
 #' earwigs with abdominal forceps (used for fighting and courtship).
 #'
 #'
-#' @name Earwigs
 #' @docType data
 #' @format A data frame with 7 observations on the following 2 variables.
 #' \describe{ \item{density}{a numeric vector}
@@ -652,7 +625,7 @@ NULL
 #' local evolution of a threshold dimorphism. \emph{Nature} 431: 1099-1103.
 #' @keywords datasets
 #'
-NULL
+"Earwigs"
 
 
 #' Eelgrass Genotypes
@@ -662,7 +635,6 @@ NULL
 #' (\code{treatment.genotypes}).
 #'
 #'
-#' @name Eelgrass
 #' @docType data
 #' @format A data frame with 32 observations on the following 2 variables.
 #' \describe{ \item{genotypes}{a numeric vector of the number of
@@ -675,7 +647,7 @@ NULL
 #' 2826-2831.
 #' @keywords datasets
 #'
-NULL
+"Eelgrass"
 
 
 #' Diet Breadth in a Rainforest Community
@@ -684,7 +656,6 @@ NULL
 #' (\code{no.species}) in the rainforest community at El Verde, Puerto Rico
 #'
 #'
-#' @name ElVerde
 #' @docType data
 #' @format A data frame with 38 observations on the following 2 variables.
 #' \describe{ \item{breadth}{a numeric vector}
@@ -693,7 +664,7 @@ NULL
 #' Tropical Rainforest}. University of Chicago Press, Chicago.
 #' @keywords datasets
 #'
-NULL
+"ElVerde"
 
 
 #' Electric Fish
@@ -702,7 +673,6 @@ NULL
 #' of a tributary in the Amazon basin.
 #'
 #'
-#' @name ElectricFish
 #' @docType data
 #' @format A data frame with 12 observations on the following 3 variables.
 #' \describe{ \item{tributary}{a character vector}
@@ -717,7 +687,7 @@ NULL
 #' \emph{Science} 305: 1960-1962.
 #' @keywords datasets
 #'
-NULL
+"ElectricFish"
 
 
 #' Endangered and Threatened Species
@@ -726,7 +696,6 @@ NULL
 #' endangered and threatened species (2002).
 #'
 #'
-#' @name EndangeredSpecies
 #' @docType data
 #' @format A data frame with 11 observations on the following 2 variables.
 #' \describe{ \item{taxon}{a character vector}
@@ -736,7 +705,7 @@ NULL
 #' per calendar year.
 #' @keywords datasets
 #'
-NULL
+"EndangeredSpecies"
 
 
 #' 2D:4D Finger Ratio
@@ -745,7 +714,6 @@ NULL
 #' and the number of CAG repeats for each.
 #'
 #'
-#' @name FingerRatio
 #' @docType data
 #' @format A data frame with 46 observations on the following 2 variables.
 #' \describe{ \item{CAGrepeats}{a numeric vector of the number of CAG
@@ -757,7 +725,7 @@ NULL
 #' androgen receptor gene. \emph{Evolution and Human Behavior} 24: 399-405.
 #' @keywords datasets
 #'
-NULL
+"FingerRatio"
 
 
 #' Spermatophore Mass in Fireflies
@@ -766,7 +734,6 @@ NULL
 #' (\emph{Photinus ignitus}).
 #'
 #'
-#' @name Fireflies
 #' @docType data
 #' @format A data frame with 35 observations of one variable. \describe{
 #' \item{sp.mass}{} }
@@ -779,7 +746,7 @@ NULL
 #' \emph{Behavioral Ecology} 14: 135-140.
 #' @keywords datasets
 #'
-NULL
+"Fireflies"
 
 
 #' Firefly Flash Duration
@@ -788,7 +755,6 @@ NULL
 #' (\emph{Photinus ignitus}; \emph{n} = 35).
 #'
 #'
-#' @name FireflyFlash
 #' @docType data
 #' @format A data frame with 35 observations of one variable. \describe{
 #' \item{flash}{duration of flash (milliseconds)} }
@@ -797,7 +763,7 @@ NULL
 #' \emph{Behavioral Ecology} 14: 135-140.
 #' @keywords datasets
 #'
-NULL
+"FireflyFlash"
 
 
 #' Testes Size in Flies
@@ -807,7 +773,6 @@ NULL
 #' systems (\code{Mating.system}).
 #'
 #'
-#' @name FlyTestes
 #' @docType data
 #' @format A data frame with 8 observations on the following 2 variables.
 #' \describe{ \item{mating}{a factor with levels \code{Monogamous}
@@ -817,7 +782,7 @@ NULL
 #' size evolution via sperm competition. \emph{Ecology Letters} 4: 10-13.
 #' @keywords datasets
 #'
-NULL
+"FlyTestes"
 
 
 #' Forehead Patch Size in Collared Flycatachers
@@ -826,7 +791,6 @@ NULL
 #' consecutive years.
 #'
 #'
-#' @name FlycatcherPatch
 #' @docType data
 #' @format A data frame with 30 observations on the following 2 variables.
 #' \describe{ \item{patch98}{a numeric vector} \item{patch99}{a
@@ -836,7 +800,7 @@ NULL
 #' \emph{Animal Behaviour} 61: 987-993.
 #' @keywords datasets
 #'
-NULL
+"FlycatcherPatch"
 
 
 #' Gene Regulation in Saccharomyces
@@ -845,7 +809,6 @@ NULL
 #' cerevisiae}.
 #'
 #'
-#' @name GeneRegulation
 #' @docType data
 #' @format A data frame with 26 observations on the following 2 variables.
 #' \describe{ \item{genes.regulated}{a numeric vector}
@@ -855,7 +818,7 @@ NULL
 #' \emph{Nature Genetics} 31: 60-63.
 #' @keywords datasets
 #'
-NULL
+"GeneRegulation"
 
 
 #' GlidingSnakes
@@ -864,7 +827,6 @@ NULL
 #' paradisi}).
 #'
 #'
-#' @name GlidingSnakes
 #' @docType data
 #' @format A data frame with eight observations of one variable. \describe{
 #' \item{undulation.rate}{undulation rate} }
@@ -876,7 +838,7 @@ NULL
 #' \emph{Nature} 418: 603-604.
 #' @keywords datasets
 #'
-NULL
+"GlidingSnakes"
 
 
 #' Godwit Arrival Dates
@@ -885,7 +847,6 @@ NULL
 #' (\emph{Limosa limosa})
 #'
 #'
-#' @name GodwitArrival
 #' @docType data
 #' @format A data frame with 10 observations on the following 2 variables.
 #' \describe{ \item{female}{a numeric vector} \item{male}{a
@@ -896,7 +857,7 @@ NULL
 #' 646.
 #' @keywords datasets
 #'
-NULL
+"GodwitArrival"
 
 
 #' Grassland Diversity
@@ -906,7 +867,6 @@ NULL
 #' been added.
 #'
 #'
-#' @name Grassland
 #' @docType data
 #' @format A data frame with 10 observations on the following 2 variables.
 #' \describe{ \item{nutrients}{a numeric vector}
@@ -916,7 +876,7 @@ NULL
 #' reduced niche dimension. \emph{Nature} 446: 791-793.
 #' @keywords datasets
 #'
-NULL
+"Grassland"
 
 
 #' Malaria in Populations of Great Tit
@@ -925,7 +885,6 @@ NULL
 #' in control and egg-removal populations of Great Tit (\emph{Parus major}).
 #'
 #'
-#' @name GreatTitMalaria
 #' @docType data
 #' @format A data frame with 65 observations on the following 2 variables.
 #' \describe{ \item{treatment}{a factor with levels \code{Control} and
@@ -937,7 +896,7 @@ NULL
 #' malaria resistance. \emph{Nature} 381: 565.
 #' @keywords datasets
 #'
-NULL
+"GreatTitMalaria"
 
 
 #' Diversity in Urban Green Space
@@ -945,7 +904,6 @@ NULL
 #' Measures of biodiversity in 15 urban green spaces in Sheffield, England.
 #'
 #'
-#' @name Greenspace
 #' @docType data
 #' @format A data frame with 15 observations on the following 6 variables.
 #' \describe{ \item{site}{a factor with levels \code{A} - \code{O}}
@@ -959,7 +917,7 @@ NULL
 #' biodiversity. \emph{Biology Letters} 3: 390-394.
 #' @keywords datasets
 #'
-NULL
+"Greenspace"
 
 
 #' Ornamentation and Attractiveness in Guppies
@@ -969,7 +927,6 @@ NULL
 #' (\emph{Poecilia reticulata}).
 #'
 #'
-#' @name Guppies
 #' @docType data
 #' @format A data frame with 36 observations on the following 2 variables.
 #' \describe{ \item{father.ornament}{a numeric vector}
@@ -980,7 +937,7 @@ NULL
 #' between male sexual attractiveness and survival. \emph{Nature} 406: 67-70.
 #' @keywords datasets
 #'
-NULL
+"Guppies"
 
 
 #' Hemoglobin Levels in High Altitude Populations
@@ -989,7 +946,6 @@ NULL
 #' living at different altitudes.
 #'
 #'
-#' @name Hemoglobin
 #' @docType data
 #' @format A data frame with 40 observations on the following 3 variables.
 #' \describe{ \item{hemoglobin}{a numeric vector}
@@ -1003,7 +959,7 @@ NULL
 #' Academy of Sciences (USA)} 99(26): 17215-17218.
 #' @keywords datasets
 #'
-NULL
+"Hemoglobin"
 
 
 #' Memory and the Hippocampus
@@ -1012,7 +968,6 @@ NULL
 #' (\code{lesion}).
 #'
 #'
-#' @name HippocampusLesions
 #' @docType data
 #' @format A data frame with 57 observations on the following 2 variables.
 #' \describe{ \item{lesion}{a numeric vector} \item{memory}{a
@@ -1022,7 +977,7 @@ NULL
 #' Academy of Sciences (USA)} 101: 14515-14520.
 #' @keywords datasets
 #'
-NULL
+"HippocampusLesions"
 
 
 #' Horn Length and Predation Status of Horned Lizards
@@ -1032,7 +987,6 @@ NULL
 #' mcalli}).
 #'
 #'
-#' @name HornedLizards
 #' @docType data
 #' @format A data frame with 184 observations on the following 2 variables.
 #' \describe{ \item{horn.length}{a numeric vector}
@@ -1042,7 +996,7 @@ NULL
 #' horned lizard got its horns. \emph{Science} 304: 65.
 #' @keywords datasets
 #'
-NULL
+"HornedLizards"
 
 
 #' Human Body Temperature
@@ -1050,7 +1004,6 @@ NULL
 #' Body temperature for 25 randomly chosen health people
 #'
 #'
-#' @name HumanBodyTemp
 #' @docType data
 #' @format A data frame with 25 observations of one variable. \describe{
 #' \item{temp}{body temperature (degrees F)} }
@@ -1065,7 +1018,7 @@ NULL
 #' heart rate. \emph{Journal of Statistics Education} 4(2).
 #' @keywords datasets
 #'
-NULL
+"HumanBodyTemp"
 
 
 #' Human Gene Lengths
@@ -1073,7 +1026,6 @@ NULL
 #' Lengths in number of nucleotides (\code{gene.length}) for 20,290 human genes
 #'
 #'
-#' @name HumanGeneLengths
 #' @docType data
 #' @format A data frame with 20,290 observations on the following variable.
 #' \describe{ \item{gene.length}{a numeric vector} }
@@ -1092,7 +1044,7 @@ NULL
 #' 33: D447-D453.
 #' @keywords datasets
 #'
-NULL
+"HumanGeneLengths"
 
 
 #' Intense Hurricanes
@@ -1101,7 +1053,6 @@ NULL
 #' Safir-Simpson scale during the 20th century.
 #'
 #'
-#' @name Hurricanes
 #' @docType data
 #' @format A data frame with 4 observations on the following 2 variables.
 #' \describe{ \item{hurricanes}{a numeric vector}
@@ -1114,7 +1065,7 @@ NULL
 #' \emph{NOAA Technical Memorandum NWS TPC-4}.
 #' @keywords datasets
 #'
-NULL
+"Hurricanes"
 
 
 #' Iguana Body Length Changes
@@ -1132,7 +1083,7 @@ NULL
 #' Niño. \emph{Nature} 403: 37-38.
 #' @keywords datasets
 #'
-NULL
+"Iguanas"
 
 
 #' Intertidal Algae
@@ -1141,7 +1092,6 @@ NULL
 #' treatments (\code{herbivores}) at two tide levels (\code{height}).
 #'
 #'
-#' @name IntertidalAlgae
 #' @docType data
 #' @format A data frame with 64 observations on the following 3 variables.
 #' \describe{ \item{height}{a factor with levels \code{low} and
@@ -1152,7 +1102,7 @@ NULL
 #' \emph{Ecology} 84: 1477-1488.
 #' @keywords datasets
 #'
-NULL
+"IntertidalAlgae"
 
 
 #' Circadian Rhythm Phase Shift
@@ -1161,7 +1111,6 @@ NULL
 #' (\code{treatment}).
 #'
 #'
-#' @name JetLagKnees
 #' @docType data
 #' @format A data frame with 22 observations on the following 2 variables.
 #' \describe{ \item{treatment}{a factor with levels \code{control},
@@ -1172,7 +1121,7 @@ NULL
 #' knees. \emph{Science} 297: 571.
 #' @keywords datasets
 #'
-NULL
+"JetLagKnees"
 
 
 #' Body Mass and Beak Length in Three Species of Finches in Kenya
@@ -1182,7 +1131,6 @@ NULL
 #' and White-browed sparrow weaver (\code{WB.SPARW}).
 #'
 #'
-#' @name KenyaFinches
 #' @docType data
 #' @format A data frame with 45 observations on the following 3 variables.
 #' \describe{ \item{species}{a factor with levels: \code{CRU.WAXB},
@@ -1192,7 +1140,7 @@ NULL
 #' continents: Kenya vs. Galapagos. \emph{Ecological Monographs} 58: 229-249.
 #' @keywords datasets
 #'
-NULL
+"KenyaFinches"
 
 
 #' Brain Structure in Bilingual Humans
@@ -1202,7 +1150,6 @@ NULL
 #' region.
 #'
 #'
-#' @name LanguageBrains
 #' @docType data
 #' @format A data frame with 22 observations on the following 2 variables.
 #' \describe{ \item{proficiency}{a numeric vector}
@@ -1212,7 +1159,7 @@ NULL
 #' bilingual brain. \emph{Nature} 431: 757.
 #' @keywords datasets
 #'
-NULL
+"LanguageBrains"
 
 
 #' Exploited Larval Fish
@@ -1221,7 +1168,6 @@ NULL
 #' from exploited and unexploited species (\code{exploited}).
 #'
 #'
-#' @name LarvalFish
 #' @docType data
 #' @format A data frame with 28 observations on the following 3 variables.
 #' \describe{ \item{age}{a numeric vector} \item{cv}{a numeric
@@ -1232,7 +1178,7 @@ NULL
 #' exploited species. \emph{Nature} 443: 859-862.
 #' @keywords datasets
 #'
-NULL
+"LarvalFish"
 
 
 #' Left-handedness and Rates of Violence
@@ -1241,7 +1187,6 @@ NULL
 #' (\code{murder}) for 8 societies.
 #'
 #'
-#' @name Lefthanded
 #' @docType data
 #' @format A data frame with 8 observations on the following 2 variables.
 #' \describe{ \item{percent.left}{a numeric vector}
@@ -1253,7 +1198,7 @@ NULL
 #' London B} 272: 25-28.
 #' @keywords datasets
 #'
-NULL
+"Lefthanded"
 
 
 #' Time to Reproduction in Female Lions
@@ -1262,7 +1207,6 @@ NULL
 #' was due to infanticide (\code{New}) or accidental (\code{Same}).
 #'
 #'
-#' @name LionCubs
 #' @docType data
 #' @format A data frame with 14 observations on the following 2 variables.
 #' \describe{ \item{cause.of.death}{a factor with \code{accident} and
@@ -1271,7 +1215,7 @@ NULL
 #' infanticide by incoming males. \emph{The American Naturalist} 121: 716-728.
 #' @keywords datasets
 #'
-NULL
+"LionCubs"
 
 
 #' Lion Age and Nose Coloration
@@ -1280,7 +1224,6 @@ NULL
 #' their noses (\code{proportion.black}).
 #'
 #'
-#' @name LionNoses
 #' @docType data
 #' @format A data frame with 32 observations on the following 2 variables.
 #' \describe{ \item{age}{a numeric vector}
@@ -1291,7 +1234,7 @@ NULL
 #' Sustainable trophy hunting of African lions. \emph{Nature} 428: 175-178.
 #' @keywords datasets
 #'
-NULL
+"LionNoses"
 
 
 #' Liver Preparation
@@ -1300,7 +1243,6 @@ NULL
 #' administered taurocholate.
 #'
 #'
-#' @name LiverPreparation
 #' @docType data
 #' @format A data frame with 5 observations on the following 2 variables.
 #' \describe{ \item{concentration}{a numeric vector}
@@ -1312,7 +1254,7 @@ NULL
 #' of Pharmacokinetics and Pharmacodynamics} 16:397-411.
 #' @keywords datasets
 #'
-NULL
+"LiverPreparation"
 
 
 #' Bite Force in Collard Lizards
@@ -1321,7 +1263,6 @@ NULL
 #' (\emph{Crotaphytus collaris}).
 #'
 #'
-#' @name LizardBite
 #' @docType data
 #' @format A data frame with 11 observations on the following 2 variables.
 #' \describe{ \item{bite}{force of bite (N)}
@@ -1338,7 +1279,7 @@ NULL
 #' and \code{10^(log(LizardBite$bite))}.
 #' @keywords datasets
 #'
-NULL
+"LizardBite"
 
 
 #' Sprint Speeds in Canyon Lizards
@@ -1349,7 +1290,6 @@ NULL
 #' that \code{lizard} is not coded as a factor.
 #'
 #'
-#' @name LizardSprint
 #' @docType data
 #' @format A data frame with 68 observations on the following 2 variables.
 #' \describe{ \item{lizard}{a numeric vector} \item{speed}{a
@@ -1360,7 +1300,7 @@ NULL
 #' \emph{Sceloporus merriami}. \emph{Evolution} 42: 1116-1120.
 #' @keywords datasets
 #'
-NULL
+"LizardSprint"
 
 
 #' Lobster Orientation
@@ -1368,7 +1308,6 @@ NULL
 #' Orientation of 15 lobsters relative to initial position.
 #'
 #'
-#' @name Lobsters
 #' @docType data
 #' @format A data frame with 15 observations of one variable. \describe{
 #' \item{orientation}{} }
@@ -1378,7 +1317,7 @@ NULL
 #' maps in spiny lobsters. \emph{Nature} 421: 60-63.
 #' @keywords datasets
 #'
-NULL
+"Lobsters"
 
 
 #' Lodgepole Pine Cone Masses
@@ -1387,7 +1326,6 @@ NULL
 #' habitat types (\code{habitat}) in western North America.
 #'
 #'
-#' @name LodgepolePines
 #' @docType data
 #' @format A data frame with 16 observations on the following 4 variables.
 #' \describe{ \item{habitat}{a factor with levels: \code{island
@@ -1404,7 +1342,7 @@ NULL
 #' 1651-1659.
 #' @keywords datasets
 #'
-NULL
+"LodgepolePines"
 
 
 #' Autoimmune Reactivity in Lupus-prone Mice
@@ -1413,7 +1351,6 @@ NULL
 #' detected) in three \code{treatment}s of lupus-prone mice.
 #'
 #'
-#' @name LupusMice
 #' @docType data
 #' @format A data frame with 20 observations on the following 2 variables.
 #' \describe{ \item{treatment}{a factor with levels: \code{enhanced},
@@ -1424,7 +1361,7 @@ NULL
 #' \emph{Science} 307: 590-593.
 #' @keywords datasets
 #'
-NULL
+"LupusMice"
 
 
 #' Population Cycles of Lynx in Canada 1752-1819
@@ -1433,7 +1370,6 @@ NULL
 #' 1819.
 #'
 #'
-#' @name Lynx
 #' @docType data
 #' @format A data frame with 68 observations on the following 2 variables.
 #' \describe{ \item{year}{a numeric vector} \item{pelts}{a
@@ -1442,7 +1378,7 @@ NULL
 #' the lynx in Canada. \emph{Journal of Animal Ecology} 11: 215-244.
 #' @keywords datasets
 #'
-NULL
+"Lynx"
 
 
 #' Marine Reserve Biomass
@@ -1450,7 +1386,6 @@ NULL
 #' Relative biomass in 32 marine reserves.
 #'
 #'
-#' @name MarineReserve
 #' @docType data
 #' @format A data frame with 32 observations of one variable.  \describe{
 #' \item{biomass.ratio}{} }
@@ -1458,7 +1393,7 @@ NULL
 #' and does reserve size matter? \emph{Ecological Applications} 13: S117-S137.
 #' @keywords datasets
 #'
-NULL
+"MarineReserve"
 
 
 #' Mass Extinction Frequency
@@ -1466,7 +1401,6 @@ NULL
 #' The frequency of mass extinctions in the fossil record.
 #'
 #'
-#' @name MassExtinctions
 #' @docType data
 #' @format A data frame with 21 observations on the following 2 variables.
 #' \describe{ \item{num.extinctions}{a numeric vector}
@@ -1477,7 +1411,7 @@ NULL
 #' marine fossil record. \emph{Science} 215: 1501-1503.
 #' @keywords datasets
 #'
-NULL
+"MassExtinctions"
 
 
 #' Energy Expenditure in Mole Rats
@@ -1487,12 +1421,13 @@ NULL
 #' (\code{ln.mass}) as a covariate.
 #'
 #'
-#' @name MoleRats
 #' @docType data
 #' @format A data frame with 35 observations on the following 3 variables.
-#' \describe{ \item{caste}{a factor with levels \code{lazy} and
-#' \code{worker}} \item{ln.mass}{a numeric vector}
-#' \item{ln.energy}{a numeric vector} }
+#' \describe{
+#'   \item{caste}{a factor with levels \code{lazy} and \code{worker}}
+#'   \item{ln.mass}{a numeric vector}
+#'   \item{ln.energy}{a numeric vector}
+#' }
 #' @references
 #' \url{http://www.nature.com/nature/journal/v440/n7085/abs/nature04578.html}
 #' @source \emph{inferred from} Scantlebury, M., J.R. Speakman, M.K.
@@ -1501,15 +1436,14 @@ NULL
 #' 795-797.
 #' @keywords datasets
 #'
-NULL
+"MoleRats"
 
 
 #' Body Size in Anopheles Mosquitoes
 #'
-#' Weights of female and male mosquitoes (\emph{Anopheles darlingi})
+#' Weights of female and male mosquitos (\emph{Anopheles darlingi})
 #'
 #'
-#' @name Mosquitoes
 #' @docType data
 #' @format A data frame with 20 observations on the following 2 variables.
 #' \describe{ \item{weight}{a numeric vector} \item{sex}{a
@@ -1521,7 +1455,7 @@ NULL
 #' 769-774.
 #' @keywords datasets
 #'
-NULL
+"Mosquitoes"
 
 
 #' Mouse Empathy
@@ -1530,7 +1464,6 @@ NULL
 #' \code{condition} and \code{treatment} code for the same variable.
 #'
 #'
-#' @name MouseEmpathy
 #' @docType data
 #' @format A data frame with 42 observations on the following 3 variables.
 #' \describe{ \item{treatment}{a factor with levels \code{Both
@@ -1543,7 +1476,7 @@ NULL
 #' 1967-1970.
 #' @keywords datasets
 #'
-NULL
+"MouseEmpathy"
 
 
 #' Cranial Capacity in Neanderthals and Modern Humans
@@ -1552,7 +1485,6 @@ NULL
 #' and early modern humans (\code{species}).
 #'
 #'
-#' @name NeanderthalBrains
 #' @docType data
 #' @format A data frame with 39 observations on the following 3 variables.
 #' \describe{ \item{ln.mass}{log of body mass (kg)}
@@ -1562,7 +1494,7 @@ NULL
 #' encephalization in Pleistocene \emph{Homo}. \emph{Nature} 387: 173-176.
 #' @keywords datasets
 #'
-NULL
+"NeanderthalBrains"
 
 
 #' Effects of Trimethadione on Lifespan in Nematodes
@@ -1572,7 +1504,6 @@ NULL
 #' trimethadione.
 #'
 #'
-#' @name NematodeLifespan
 #' @docType data
 #' @format A data frame with 200 observations on the following 2 variables.
 #' \describe{ \item{treatment}{a factor with levels: \code{adult},
@@ -1585,7 +1516,7 @@ NULL
 #' \emph{Science} 307: 258-262.
 #' @keywords datasets
 #'
-NULL
+"NematodeLifespan"
 
 
 #' Photosynthesis in Neotropical Trees
@@ -1595,7 +1526,6 @@ NULL
 #' of \emph{Ocotea tenera}.
 #'
 #'
-#' @name NeotropicalTrees
 #' @docType data
 #' @format A data frame with 9 observations on the following 2 variables.
 #' \describe{ \item{previous.fruits}{a numeric vector}
@@ -1607,7 +1537,7 @@ NULL
 #' National Academy of Sciences (USA)} 101: 8051-8055.
 #' @keywords datasets
 #'
-NULL
+"NeotropicalTrees"
 
 
 #' Tetrodotoxin Resistance in Garter Snakes
@@ -1617,7 +1547,6 @@ NULL
 #' (\emph{Taricha granulosa}).
 #'
 #'
-#' @name Newts
 #' @docType data
 #' @format A data frame with 12 observations on the following 2 variables.
 #' \describe{ \item{locality}{a factor with levels: \code{Benton} and
@@ -1629,7 +1558,7 @@ NULL
 #' sodium channels. \emph{Science} 297: 1336-1339.
 #' @keywords datasets
 #'
-NULL
+"Newts"
 
 
 #' No Smoking Day
@@ -1650,7 +1579,7 @@ NULL
 #' withdrawal and accident rates. \emph{Nature} 394: 137.
 #' @keywords datasets
 #'
-NULL
+"NoSmokingDay"
 
 
 #' Atlantic Cod Recruits
@@ -1671,7 +1600,7 @@ NULL
 #' North Sea. \emph{Nature} 426: 661-664.
 #' @keywords datasets
 #'
-NULL
+"NorthSeaCod"
 
 
 #' Ostrich Body and Brain Temperatures
@@ -1681,7 +1610,6 @@ NULL
 #' Centre, Lichtenburg, South Africa.
 #'
 #'
-#' @name OstrichTemp
 #' @docType data
 #' @format A data frame with 6 observations on the following 3 variables.
 #' \describe{ \item{ostrich}{a numeric vector identifying ostrich
@@ -1697,7 +1625,7 @@ NULL
 #' Experimental Biology} 206: 1171-1181.
 #' @keywords datasets
 #'
-NULL
+"OstrichTemp"
 
 
 #' Penguin Heart Rate
@@ -1716,7 +1644,7 @@ NULL
 #' macaroni penguins. \emph{Journal of Experimental Biology} 204: 673-684.
 #' @keywords datasets
 #'
-NULL
+"Penguins"
 
 
 #' Population Persistence Times
@@ -1725,7 +1653,6 @@ NULL
 #' pensylvanica} in four experimental populations (\code{treatment}).
 #'
 #'
-#' @name PlantPersistence
 #' @docType data
 #' @format A data frame with 16 observations on the following 2 variables.
 #' \describe{ \item{generations}{a numeric vector}
@@ -1736,7 +1663,7 @@ NULL
 #' Sciences (USA)} 102: 3726-3731.
 #' @keywords datasets
 #'
-NULL
+"PlantPersistence"
 
 
 #' Sterility in Hybrid Pollens
@@ -1745,7 +1672,6 @@ NULL
 #' proportion of their hybrid offspring that are sterile.
 #'
 #'
-#' @name Pollen
 #' @docType data
 #' @format A data frame with 23 observations on the following 2 variables.
 #' \describe{ \item{genetic.distance}{a numeric vector}
@@ -1755,7 +1681,7 @@ NULL
 #' 1195-1208.
 #' @keywords datasets
 #'
-NULL
+"Pollen"
 
 
 #' Powerball Tickets Sold
@@ -1763,7 +1689,6 @@ NULL
 #' The number of Powerball tickets sold per day of the week for three years.
 #'
 #'
-#' @name Powerball
 #' @docType data
 #' @format A data frame with 7 observations on the following 2 variables.
 #' \describe{ \item{day}{a character vector}
@@ -1774,7 +1699,7 @@ NULL
 #' \emph{Chance News} 13.02.
 #' @keywords datasets
 #'
-NULL
+"Powerball"
 
 
 #' Primate Metabolic Rates
@@ -1782,7 +1707,6 @@ NULL
 #' Body mass (g) and metabolic rate (watts) for 17 species of primates.
 #'
 #'
-#' @name PrimateMetabolism
 #' @docType data
 #' @format A data frame with 17 observations on the following 2 variables.
 #' \describe{ \item{mass}{mass (g) } \item{bmr}{metabolic rate
@@ -1792,7 +1716,7 @@ NULL
 #' Experimental Biology} 160: 25-54.
 #' @keywords datasets
 #'
-NULL
+"PrimateMetabolism"
 
 
 #' Primate White Blood Cell Counts and Promiscuity
@@ -1800,7 +1724,6 @@ NULL
 #' White blood cell (WBC) counts in pairs of closely related primate species
 #'
 #'
-#' @name PrimateWBC
 #' @docType data
 #' @format A data frame with 9 observations on the following 2 variables.
 #' \describe{ \item{WBC.less}{a numeric vector}
@@ -1809,7 +1732,7 @@ NULL
 #' the primate immune system. \emph{Science} 290: 1168-1170.
 #' @keywords datasets
 #'
-NULL
+"PrimateWBC"
 
 
 #' Progesterone and Exercise
@@ -1818,7 +1741,6 @@ NULL
 #' 30 women.
 #'
 #'
-#' @name ProgesteroneExercise
 #' @docType data
 #' @format A data frame with 30 observations on the following 2 variables.
 #' \describe{ \item{progesterone}{a numeric vector}
@@ -1830,7 +1752,7 @@ NULL
 #' Experimental Biology} 205: 233-239
 #' @keywords datasets
 #'
-NULL
+"ProgesteroneExercise"
 
 
 #' Multiple Mating in Pseudoscorpions
@@ -1840,7 +1762,6 @@ NULL
 #' mated to the same male twice and one to two different males.
 #'
 #'
-#' @name Pseudoscorpions
 #' @docType data
 #' @format A data frame with 36 observations on the following 2 variables.
 #' \describe{ \item{treatment}{a factor with levels \code{DM}
@@ -1851,7 +1772,7 @@ NULL
 #' of the National Academy of Sciences (USA)} 96: 10236-10241.
 #' @keywords datasets
 #'
-NULL
+"Pseudoscorpions"
 
 
 #' Pufferfish Mimicry
@@ -1861,7 +1782,6 @@ NULL
 #' (\code{resemblance})
 #'
 #'
-#' @name Pufferfish
 #' @docType data
 #' @format A data frame with 20 observations on the following 2 variables.
 #' \describe{ \item{resemblance}{a numeric vector}
@@ -1877,7 +1797,7 @@ NULL
 #' B, Biological Sciences} 270: 667-672.
 #' @keywords datasets
 #'
-NULL
+"Pufferfish"
 
 
 #' Temperature Change and Meal Size in Rattlesnakes
@@ -1886,7 +1806,6 @@ NULL
 #' rattlesnakes (\emph{Crotalus durissus}).
 #'
 #'
-#' @name Rattlesnakes
 #' @docType data
 #' @format A data frame with 17 observations on the following 2 variables.
 #' \describe{ \item{meal.size}{a numeric vector}
@@ -1897,7 +1816,7 @@ NULL
 #' of Experimental Biology} 207: 579-585.
 #' @keywords datasets
 #'
-NULL
+"Rattlesnakes"
 
 
 #' Rigormortis and Time of Death
@@ -1905,7 +1824,6 @@ NULL
 #' Number of bodies reaching rigormortis in each hour after death.
 #'
 #'
-#' @name Rigormortis
 #' @docType data
 #' @format A data frame with 12 observations on the following 2 variables.
 #' \describe{ \item{hours}{a numeric vector} \item{count}{a
@@ -1914,7 +1832,7 @@ NULL
 #' of Dundee.
 #' @keywords datasets
 #'
-NULL
+"Rigormortis"
 
 
 #' Indian Rope Trick
@@ -1924,7 +1842,6 @@ NULL
 #' witnessed.
 #'
 #'
-#' @name RopeTrick
 #' @docType data
 #' @format A data frame with 21 observations on the following 2 variables.
 #' \describe{ \item{years}{a numeric vector}
@@ -1934,7 +1851,7 @@ NULL
 #' \emph{Nature} 383: 212-213.
 #' @keywords datasets
 #'
-NULL
+"RopeTrick"
 
 
 #' Sagebrush Cricket Mating Times
@@ -1943,7 +1860,6 @@ NULL
 #' sagebrush crickets (\emph{Cyphoderris strepitans}).
 #'
 #'
-#' @name SagebrushCrickets
 #' @docType data
 #' @format A data frame with 24 observations on the following 2 variables.
 #' \describe{ \item{treatment}{a factor with levels: \code{fed} and
@@ -1954,7 +1870,7 @@ NULL
 #' \emph{Behavioral Ecology} 10: 227-233.
 #' @keywords datasets
 #'
-NULL
+"SagebrushCrickets"
 
 
 #' Pacific Salmon Color
@@ -1963,7 +1879,6 @@ NULL
 #' (\emph{Oncorhynchus nerka}) raised in a low carotenoid environment.
 #'
 #'
-#' @name SalmonColor
 #' @docType data
 #' @format A data frame with 35 observations on the following 2 variables.
 #' \describe{ \item{species}{a factor with levels \code{kokanee} and
@@ -1974,7 +1889,7 @@ NULL
 #' sockeye salmon (\emph{Oncorhynchus nerka}). \emph{Evolution} 55: 380-391.
 #' @keywords datasets
 #'
-NULL
+"SalmonColor"
 
 
 #' Number of Seedlings Per Quadrat
@@ -1982,14 +1897,14 @@ NULL
 #' Data on frequency of seeding per quadrat for 80 hypothetical quadrats.
 #'
 #'
-#' @name Seedlings
 #' @docType data
 #' @format A data frame with 8 observations on the following 2 variables.
 #' \describe{ \item{seedlings}{a numeric vector} \item{count}{a
 #' numeric vector} }
 #' @keywords datasets
 #'
-NULL
+"Seedlings"
+
 
 #' Data for Meta-analysis
 #'
@@ -1997,7 +1912,6 @@ NULL
 #' aggression.
 #'
 #'
-#' @name Selection
 #' @docType data
 #' @format A data frame with 814 observations on the following 8 variables.
 #'
@@ -2014,7 +1928,7 @@ NULL
 #' Naturalist} 157: 245-261.
 #' @keywords datasets
 #'
-NULL
+"Selection"
 
 
 #' Sexual Conflict
@@ -2025,7 +1939,6 @@ NULL
 #' (\code{monandrous.species}).
 #'
 #'
-#' @name SexualSelection
 #' @docType data
 #' @format A data frame with 25 observations on the following 4 variables.
 #' \describe{ \item{polyandrous.species}{a numeric vector}
@@ -2038,7 +1951,7 @@ NULL
 #' National Academy of Sciences (USA)} 97: 10460-10464.
 #' @keywords datasets
 #'
-NULL
+"SexualSelection"
 
 
 #' Shad Parasites
@@ -2046,7 +1959,6 @@ NULL
 #' Frequency of the nematode \emph{Camallanus oxycephalus} per fish.
 #'
 #'
-#' @name ShadParasites
 #' @docType data
 #' @format A data frame with 7 observations on the following 2 variables.
 #' \describe{ \item{parasites}{a numeric vector} \item{count}{a
@@ -2058,7 +1970,7 @@ NULL
 #' 117: 597-610.
 #' @keywords datasets
 #'
-NULL
+"ShadParasites"
 
 
 #' Seal Body Lengths and Age
@@ -2067,7 +1979,6 @@ NULL
 #' (\emph{Callorhinus ursinus}).
 #'
 #'
-#' @name ShrinkingSeals
 #' @docType data
 #' @format A data frame with 9,665 observations on the following 2 variables.
 #' \describe{ \item{age}{age (days)} \item{length}{body length
@@ -2077,7 +1988,7 @@ NULL
 #' Zoology (London)} 238: 459-482.
 #' @keywords datasets
 #'
-NULL
+"ShrinkingSeals"
 
 
 #' Ambient Temperature and O-Ring Failures
@@ -2086,7 +1997,6 @@ NULL
 #' shuttle launches.
 #'
 #'
-#' @name ShuttleDisaster
 #' @docType data
 #' @format A data frame with 23 observations on the following 2 variables.
 #' \describe{ \item{temperature}{a numeric vector}
@@ -2100,7 +2010,7 @@ NULL
 #' the American Statistical Association} 408: 945-957.
 #' @keywords datasets
 #'
-NULL
+"ShuttleDisaster"
 
 
 #' Rate of Speciation in Silverswords
@@ -2108,7 +2018,6 @@ NULL
 #' Speciation "waiting times" in Hawaiian silverswords (\emph{Dubautia}).
 #'
 #'
-#' @name Silversword
 #' @docType data
 #' @format A data frame with 21 observations on the following variable.
 #' \describe{ \item{waiting.time}{a numeric vector} }
@@ -2118,7 +2027,7 @@ NULL
 #' 95: 9402-9406.
 #' @keywords datasets
 #'
-NULL
+"Silversword"
 
 
 #' Sleep and Learning
@@ -2127,7 +2036,6 @@ NULL
 #' in 10 humans.
 #'
 #'
-#' @name SleepAndPerformance
 #' @docType data
 #' @format A data frame with 10 observations on the following 2 variables.
 #' \describe{ \item{sleep}{a numeric vector}
@@ -2137,7 +2045,7 @@ NULL
 #' sleep and learning. \emph{Nature} 430: 78-81.
 #' @keywords datasets
 #'
-NULL
+"SleepAndPerformance"
 
 
 #' Body Masses of Female Sockeye Salmon
@@ -2146,7 +2054,6 @@ NULL
 #' \url{http://www.nmfs.noaa.gov/pr/species/fish/sockeyesalmon.htm})
 #'
 #'
-#' @name SockeyeFemales
 #' @docType data
 #' @format A data frame with 228 observations of a single variable. \describe{
 #' \item{mass}{body mass (kg)} }
@@ -2155,7 +2062,7 @@ NULL
 #' within a population of salmon. \emph{Oikos} 85: 499-514.
 #' @keywords datasets
 #'
-NULL
+"SockeyeFemales"
 
 
 #' Lifetime Reproductive Success in House Sparrows
@@ -2163,7 +2070,6 @@ NULL
 #' A cross table of lifetime reproductive success (\code{LifetimeRS}) in female
 #' and male house sparrows \emph{Passer domesticus} in Norway.
 #'
-#' @name Sparrows
 #' @docType data
 #' @format A data frame with 9 observations on the following 3 variables.
 #' \describe{ \item{lifetimeRS}{a numeric vector}
@@ -2174,7 +2080,7 @@ NULL
 #' of Animal Ecology} 73: 599-611.
 #' @keywords datasets
 #'
-NULL
+"Sparrows"
 
 
 #' Social Spiders
@@ -2183,7 +2089,6 @@ NULL
 #' \emph{Cryptophora citricola} in Gabon.
 #'
 #'
-#' @name SpiderColonies
 #' @docType data
 #' @format A data frame with 17 observations on the following 3 variables.
 #' \describe{ \item{colony}{identifier} \item{height}{height of
@@ -2193,7 +2098,7 @@ NULL
 #' West Africa. \emph{Behavioral Ecology and Sociobiology} 5: 291-300.
 #' @keywords datasets
 #'
-NULL
+"SpiderColonies"
 
 
 #' Spider Running Speeds after Amputation
@@ -2202,12 +2107,13 @@ NULL
 #' \emph{Tidarren}.
 #'
 #'
-#' @name SpiderSpeed
 #' @docType data
 #' @format A data frame with 32 observations on the following 2 variables.
 #' \describe{ \item{speed.before}{speed (cm/s) before amputation }
 #' \item{speed.after}{speed (cm/s) after amputation } }
-#' @references \url{http://en.wikipedia.org/wiki/Pedipalp}, \url{http://en.wikipedia.org/wiki/Tidarren}, \url{http://www.pnas.org/content/101/14/4883}
+#' @references \url{http://en.wikipedia.org/wiki/Pedipalp},
+#' \url{http://en.wikipedia.org/wiki/Tidarren},
+#' \url{http://www.pnas.org/content/101/14/4883}
 #'
 #' @source Ramos, M., D.J. Irschick, and T.E. Christenson. 2004. Overcoming an
 #' evolutionary conflict: Removal of a reproductive organ greatly increases
@@ -2215,7 +2121,7 @@ NULL
 #' (USA)} 101: 4883-4887.
 #' @keywords datasets
 #'
-NULL
+"SpiderSpeed"
 
 
 #' Eye Widths in Stalk-Eyed Flies
@@ -2223,14 +2129,13 @@ NULL
 #' Eye width in 9 male stalk-eyed flies (\emph{Cyrtodiopsis dalmanni}).
 #'
 #'
-#' @name Stalkies1
 #' @docType data
 #' @format a data frame with 9 observations of 1 variable \describe{
 #' \item{eye.span}{eye span (mm)} }
 #' @source Data provided by Kevin Fowler, University College, London.
 #' @keywords datasets
 #'
-NULL
+"Stalkies1"
 
 
 #' Stalk-eyed Fly Eyespan
@@ -2239,7 +2144,6 @@ NULL
 #' (\emph{Cyrtodiopsis dalmanni}) fed a corn or cotton diet (\code{Food}).
 #'
 #'
-#' @name Stalkies2
 #' @docType data
 #' @format A data frame with 45 observations on the following 2 variables.
 #' \describe{ \item{food}{a factor with levels \code{Corn}
@@ -2249,7 +2153,7 @@ NULL
 #' \emph{Nature} 406: 186-188.
 #' @keywords datasets
 #'
-NULL
+"Stalkies2"
 
 
 #' Number of Lateral Plates in Sticklebacks
@@ -2259,7 +2163,6 @@ NULL
 #' genotypes (\code{mm}, \code{Mm}, and \code{MM}).
 #'
 #'
-#' @name SticklebackPlates
 #' @docType data
 #' @format A data frame with 344 observations on the following 2 variables.
 #' \describe{ \item{genotype}{a factor with levels \code{mm},
@@ -2276,7 +2179,7 @@ NULL
 #' \url{http://www.plosbiology.org/article/info:doi/10.1371/journal.pbio.0020109}
 #' @keywords datasets
 #'
-NULL
+"SticklebackPlates"
 
 
 #' Mating Preferences in Sticklebacks
@@ -2284,7 +2187,6 @@ NULL
 #' Mating preference in 9 populations of three-spined sticklebacks.
 #'
 #'
-#' @name SticklebackPreference
 #' @docType data
 #' @format A data frame with 9 observations of one variable. \describe{
 #' \item{preference.index}{a numeric vector} }
@@ -2295,7 +2197,7 @@ NULL
 #' speciation. \emph{Nature} 429: 294-298.
 #' @keywords datasets
 #'
-NULL
+"SticklebackPreference"
 
 
 #' Sumo Wrestling Wins
@@ -2303,7 +2205,6 @@ NULL
 #' Counts of number of wins for sumo wrestlers.
 #'
 #'
-#' @name Sumo
 #' @docType data
 #' @format A data frame with 16 observations on the following 2 variables.
 #' \describe{ \item{wins}{a numeric vector} \item{count}{a
@@ -2313,7 +2214,7 @@ NULL
 #' 1594-1605.
 #' @keywords datasets
 #'
-NULL
+"Sumo"
 
 
 #' Syrup Swimming
@@ -2321,7 +2222,6 @@ NULL
 #' Relative swimming speed (speed in syrup / speed in water) for 18 swimmers.
 #'
 #'
-#' @name SyrupSwimming
 #' @docType data
 #' @format A data frame with 18 observations of one variable. \describe{
 #' \item{relative.speed}{ratio of speed in syrup to speed in water} }
@@ -2330,7 +2230,7 @@ NULL
 #' Slower in Syrup? \emph{AIChE Journal} 50: 2646-2647.
 #' @keywords datasets
 #'
-NULL
+"SyrupSwimming"
 
 
 #' Causes of Teenage Deaths
@@ -2339,7 +2239,6 @@ NULL
 #' 15-19.
 #'
 #'
-#' @name TeenDeaths
 #' @docType data
 #' @format A data frame with 11 observations on the following 2 variables.
 #' \describe{ \item{cause}{a character vector} \item{deaths}{a
@@ -2349,7 +2248,7 @@ NULL
 #' Statistics; Hyattsville, Maryland.
 #' @keywords datasets
 #'
-NULL
+"TeenDeaths"
 
 
 #' Telomere Shortening
@@ -2358,7 +2257,6 @@ NULL
 #' illness.
 #'
 #'
-#' @name Telomeres
 #' @docType data
 #' @format A data frame with 39 observations on the following 2 variables.
 #' \describe{ \item{years}{a numeric vector}
@@ -2370,7 +2268,7 @@ NULL
 #' 101: 17312-17315.
 #' @keywords datasets
 #'
-NULL
+"Telomeres"
 
 
 #' Hypoxanthine and Time Since Death
@@ -2379,7 +2277,6 @@ NULL
 #' (hours) for 48 subjects.
 #'
 #'
-#' @name TimeOfDeath
 #' @docType data
 #' @format A data frame with 48 observations on the following 2 variables.
 #' \describe{ \item{hours}{a numeric vector}
@@ -2389,7 +2286,7 @@ NULL
 #' Forensic Medicine and Pathology} 18: 158-162.
 #' @keywords datasets
 #'
-NULL
+"TimeOfDeath"
 
 
 #' Right-handed Toads
@@ -2397,14 +2294,13 @@ NULL
 #' Hypothetical probability of a toad being right-handed
 #'
 #'
-#' @name Toads
 #' @docType data
 #' @format A data frame with 19 observations on the following 2 variables.
 #' \describe{ \item{n.toads}{a numeric vector} \item{prob}{a
 #' numeric vector} }
 #' @keywords datasets
 #'
-NULL
+"Toads"
 
 
 #' Flower Length in Tobacco Plants
@@ -2412,7 +2308,6 @@ NULL
 #' Distribution of flow lengths in F1 and F2 populations of \emph{Nicotiana}.
 #'
 #'
-#' @name Tobacco
 #' @docType data
 #' @format A data frame with 13 observations on the following 3 variables.
 #' \describe{ \item{flower.length}{a numeric vector of flower length in
@@ -2427,7 +2322,7 @@ NULL
 #' \emph{Genetics} 1: 164-176.
 #' @keywords datasets
 #'
-NULL
+"Tobacco"
 
 
 #' Flower Length in Tobacco Plants
@@ -2435,7 +2330,6 @@ NULL
 #' Distribution of flow lengths in F1 and F2 populations of \emph{Nicotiana}.
 #'
 #'
-#' @name Tobacco2
 #' @docType data
 #' @format A data frame with 617 observations on the following 2 variables.
 #' \describe{ \item{flower.length}{a numeric vector}
@@ -2448,7 +2342,7 @@ NULL
 #' \emph{Genetics} 1: 164-176.
 #' @keywords datasets
 #'
-NULL
+"Tobacco2"
 
 
 #' Radioactive Teeth
@@ -2457,7 +2351,6 @@ NULL
 #' the enamel for 20 samples.
 #'
 #'
-#' @name ToothAge
 #' @docType data
 #' @format A data frame with 20 observations on the following 2 variables.
 #' \describe{ \item{actual}{a numeric vector}
@@ -2467,7 +2360,7 @@ NULL
 #' 333-334.
 #' @keywords datasets
 #'
-NULL
+"ToothAge"
 
 
 #' Tree Seedlings and Sunflecks
@@ -2476,7 +2369,6 @@ NULL
 #' seedlings of \emph{Shorea leprosula}.
 #'
 #'
-#' @name TreeSeedlings
 #' @docType data
 #' @format A data frame with 21 observations on the following 2 variables.
 #' \describe{ \item{fleck.duration}{a numeric vector}
@@ -2487,7 +2379,7 @@ NULL
 #' \emph{Journal of Experimental Botany} 56: 469-482.
 #' @keywords datasets
 #'
-NULL
+"TreeSeedlings"
 
 
 #' Frequencies of Fish Eaten by Trematode Infection Level
@@ -2497,7 +2389,6 @@ NULL
 #' californiensis}.
 #'
 #'
-#' @name Trematodes
 #' @docType data
 #' @format A data frame with 141 observations on the following 2 variables.
 #' \describe{ \item{infection.status}{a factor with levels:
@@ -2508,7 +2399,7 @@ NULL
 #' hosts. \emph{Ecology} 77: 1390-1397.
 #' @keywords datasets
 #'
-NULL
+"Trematodes"
 
 
 #' Trillium Recruitment near Clearcuts
@@ -2517,7 +2408,6 @@ NULL
 #' populations in southwestern Oregon.
 #'
 #'
-#' @name Trillium
 #' @docType data
 #' @format A data frame with 8 observations on the following 3 variables.
 #' \describe{ \item{population}{a numeric vector}
@@ -2528,7 +2418,7 @@ NULL
 #' Biology} 13: 784-793
 #' @keywords datasets
 #'
-NULL
+"Trillium"
 
 
 #' Truffle Distribution
@@ -2537,7 +2427,6 @@ NULL
 #' northeastern California.
 #'
 #'
-#' @name Truffles
 #' @docType data
 #' @format A data frame with 5 observations on the following 2 variables.
 #' \describe{ \item{truffles}{a numeric vector} \item{count}{a
@@ -2548,7 +2437,7 @@ NULL
 #' California. \emph{Forest Ecology and Management} 96: 155-166.
 #' @keywords datasets
 #'
-NULL
+"Truffles"
 
 
 #' Dietary Learning in Tsetse Flies
@@ -2557,7 +2446,6 @@ NULL
 #' flies (\emph{Glossina palpalis}) feeding on cow blood in each of 13 cohorts.
 #'
 #'
-#' @name TsetseLearning
 #' @docType data
 #' @format A data frame with 13 observations on the following 2 variables.
 #' \describe{ \item{treatment}{a factor with levels \code{cow} and
@@ -2569,7 +2457,7 @@ NULL
 #' \emph{Biology Letters} 3: 113-116.
 #' @keywords datasets
 #'
-NULL
+"TsetseLearning"
 
 
 #' Number of Boys in Two-Child Families
@@ -2577,7 +2465,6 @@ NULL
 #' The number of boys in a sample of 2,444 two-child families.
 #'
 #'
-#' @name TwoKids
 #' @docType data
 #' @format A data frame with 3 observations on the following 2 variables.
 #' \describe{ \item{num.boys}{a numeric vector} \item{count}{a
@@ -2588,7 +2475,7 @@ NULL
 #' the family? \emph{Chance Magazine} Fall 2001: 8-13.
 #' @keywords datasets
 #'
-NULL
+"TwoKids"
 
 
 #' Vampire Bat Bites
@@ -2596,7 +2483,6 @@ NULL
 #' Numbers of cattle bitten by the cow's estrous cycle.
 #'
 #'
-#' @name VampireBites
 #' @docType data
 #' @format A data frame with 4 observations on the following 3 variables.
 #' \describe{ \item{estrous}{a factor with levels: \code{no} and
@@ -2606,7 +2492,7 @@ NULL
 #' and Ecology}. Johns Hopkins Press: Baltimore, MD.
 #' @keywords datasets
 #'
-NULL
+"VampireBites"
 
 
 #' Vasopressin Manipulation in the Meadow Vole
@@ -2615,7 +2501,6 @@ NULL
 #' vasopressin-enhanced groups (\code{treatment}) of meadow voles
 #' (\emph{Microtus pennsylvanicus}).
 #'
-#' @name VasopressinVoles
 #' @docType data
 #' @format A data frame with 31 observations on the following 2 variables.
 #' \describe{ \item{treatment}{a factor with levels \code{control} and
@@ -2626,7 +2511,7 @@ NULL
 #' expression of a single gene. \emph{Nature} 429: 754-757.
 #' @keywords datasets
 #'
-NULL
+"VasopressinVoles"
 
 
 #' Climbing Vines
@@ -2647,7 +2532,7 @@ NULL
 #' of London, Series B, Biological Sciences} 271: 2011-2015.
 #' @keywords datasets
 #'
-NULL
+"Vines"
 
 
 #' Home Range Size in Field Voles
@@ -2655,7 +2540,6 @@ NULL
 #' Home range size size in field voles (\emph{Microtus agrestis}).
 #'
 #'
-#' @name VoleDispersal
 #' @docType data
 #' @format A data frame with 5 observations on the following 3 variables.
 #' \describe{ \item{homeranges}{a numeric vector}
@@ -2666,7 +2550,7 @@ NULL
 #' \emph{Oecologia} 86: 153-158.
 #' @keywords datasets
 #'
-NULL
+"VoleDispersal"
 
 
 #' Walking Stick Femur Length
@@ -2688,7 +2572,7 @@ NULL
 #' the National Academy of Sciences (USA)} 103: 9090-9095.
 #' @keywords datasets
 #'
-NULL
+"WalkingStickFemurs"
 
 
 #' Walking Stick Head Width
@@ -2697,7 +2581,6 @@ NULL
 #' (\emph{Timema cristinae}).
 #'
 #'
-#' @name WalkingStickHeads
 #' @docType data
 #' @format A data frame with 50 observations on the following 2 variables.
 #' \describe{ \item{specimen}{a factor with levels \code{1-25}}
@@ -2709,7 +2592,7 @@ NULL
 #' the National Academy of Sciences (USA)} 103: 9090-9095.
 #' @keywords datasets
 #'
-NULL
+"WalkingStickHeads"
 
 
 #' Energetic Cost of Diving
@@ -2718,7 +2601,6 @@ NULL
 #' same length in the Weddell seal (\emph{Leptonychotes weddellii}).
 #'
 #'
-#' @name WeddellSeals
 #' @docType data
 #' @format A data frame with 10 observations on the following 3 variables.
 #' \describe{ \item{individual}{a numeric vector}
@@ -2731,7 +2613,7 @@ NULL
 #' 207: 973-982.
 #' @keywords datasets
 #'
-NULL
+"WeddellSeals"
 
 
 #' Presidential "Wills"
@@ -2751,11 +2633,8 @@ NULL
 #' used by loser during debates} \item{diff.wills}{difference between
 #' number of times will/shall used by two candidates} }
 #' @keywords datasets
-#' @examples
 #'
-#' WillsDebates
-#'
-NULL
+"WillsDebates"
 
 
 #' Presidential "Wills"
@@ -2764,7 +2643,6 @@ NULL
 #' in presidential debates from 1960-2004 (years incomplete).
 #'
 #'
-#' @name WillsPresidents
 #' @docType data
 #' @format A data frame with 16 observations on the following 3 variables.
 #' \describe{ \item{candidate}{a character vector with the candidate's
@@ -2775,11 +2653,8 @@ NULL
 #' numeric vector} }
 #' @seealso \code{\link{WillsDebates}}
 #' @keywords datasets
-#' @examples
 #'
-#' WillsPresidents
-#'
-NULL
+"WillsPresidents"
 
 
 #' Wolf Tooth Measurements
@@ -2788,7 +2663,6 @@ NULL
 #' 35 wolves.
 #'
 #'
-#' @name WolfTeeth
 #' @docType data
 #' @format A data frame with 35 observations of one variable.  \describe{
 #' \item{length}{distance from canine to last molar teach (cm)} }
@@ -2799,7 +2673,7 @@ NULL
 #' Society, Series B} 263: 849-853.
 #' @keywords datasets
 #'
-NULL
+"WolfTeeth"
 
 
 #' Inbreeding in Wolves
@@ -2808,7 +2682,6 @@ NULL
 #' wolves (\emph{Canis lupus}) from 1983-2002.
 #'
 #'
-#' @name Wolves
 #' @docType data
 #' @format A data frame with 24 observations on the following 2 variables.
 #' \describe{ \item{inbreeding.coefficient}{a numeric vector}
@@ -2818,7 +2691,7 @@ NULL
 #' wild wolf (\emph{Canis lupus}) population. \emph{Biology Letters} 1: 17-20.
 #' @keywords datasets
 #'
-NULL
+"Wolves"
 
 
 #' World Cup Goals
@@ -2826,14 +2699,13 @@ NULL
 #' Number of goals per team during the 2002 World Cup.
 #'
 #'
-#' @name WorldCup
 #' @docType data
 #' @format A data frame with 7 observations on the following 2 variables.
 #' \describe{ \item{score}{a numeric vector} \item{count}{a
 #' numeric vector} }
 #' @keywords datasets
 #'
-NULL
+"WorldCup"
 
 
 #' Distribution of Wrasses
@@ -2841,14 +2713,13 @@ NULL
 #' Number and sex of adult wrasses in a section of the Great Barrier Reef.
 #'
 #'
-#' @name WrasseSexes
 #' @docType data
 #' @format A data frame with 3 observations on the following 3 variables.
 #' \describe{ \item{males}{a numeric vector} \item{females}{a
 #' numeric vector} \item{count}{a numeric vector} }
 #' @keywords datasets
 #'
-NULL
+"WrasseSexes"
 
 
 #' Yeast Regulatory Genes
@@ -2856,7 +2727,6 @@ NULL
 #' Number of genes regulated by 109 yeast regulatory genes.
 #'
 #'
-#' @name YeastGenes
 #' @docType data
 #' @format A data frame with 6 observations on the following 2 variables.
 #' \describe{ \item{genes.controlled}{a numeric vector}
@@ -2866,7 +2736,7 @@ NULL
 #' \emph{Nature Genetics} 31: 60-63.
 #' @keywords datasets
 #'
-NULL
+"YeastGenes"
 
 
 #' Mate Preference in Zebra Finches
@@ -2875,7 +2745,6 @@ NULL
 #' male Zebra Finch compared to his non-supplemented brother.
 #'
 #'
-#' @name ZebraFinchBeaks
 #' @docType data
 #' @format A numeric vector with 10 observations.
 #' @references
@@ -2885,7 +2754,7 @@ NULL
 #' Finches. \emph{Science} 300: 125-127.
 #' @keywords datasets
 #'
-NULL
+"ZebraFinchBeaks"
 
 
 #' Zebra Finch Carotenoids
@@ -2895,7 +2764,6 @@ NULL
 #' (\code{CAROT}) and those that did not (\code{NO}).
 #'
 #'
-#' @name ZebraFinches
 #' @docType data
 #' @format A data frame with 20 observations on the following 3 variables.
 #' \describe{ \item{treatment}{a factor with levels: \code{CAROT} and
@@ -2906,7 +2774,7 @@ NULL
 #' \emph{The American Naturalist} 162: 704-712.
 #' @keywords datasets
 #'
-NULL
+"ZebraFinches"
 
 
 #' Home Range Size and Mortality
@@ -2915,7 +2783,6 @@ NULL
 #' for 20 species of carnivores.
 #'
 #'
-#' @name ZooMortality
 #' @docType data
 #' @format A data frame with 20 observations on the following 2 variables.
 #' \describe{ \item{log.homerange}{a numeric vector}
@@ -2924,7 +2791,8 @@ NULL
 #' carnivores. \emph{Nature} 425: 473-474.
 #' @keywords datasets
 #'
-NULL
+"ZooMortality"
+
 
 #' Zooplankton Depredation
 #'
@@ -2933,7 +2801,6 @@ NULL
 #' default, \code{block} is not coded as a factor.
 #'
 #'
-#' @name Zooplankton
 #' @docType data
 #' @format A data frame with 15 observations on the following 3 variables.
 #' \describe{ \item{treatment}{a factor with levels \code{control},
@@ -2945,4 +2812,4 @@ NULL
 #' B, Biological Sciences} 274: 839-844.
 #' @keywords datasets
 #'
-NULL
+"Zooplankton"

@@ -1,8 +1,8 @@
 Package: abdData
 Type: Package
 Title: Datasets from The Analysis of Biological Data
-Version: 0.2-10
-Date: 2022-11-16
+Version: 0.2-11
+Date: 2024-04-22
 Author: Kevin M. Middleton <middletonk@missouri.edu>, Randall Pruim
     <rpruim@calvin.edu>
 Maintainer: Kevin M. Middleton <middletonk@missouri.edu>
@@ -17,5 +17,5 @@ LazyData: yes
 Encoding: UTF-8
 Collate:
     'datasets.R'
-RoxygenNote: 7.2.2
+RoxygenNote: 7.3.1
 URL: https://middleton-lab.github.io/abdData/

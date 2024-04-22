@@ -15,8 +15,11 @@ Lounibos, L.P., N. Nishimura, J. Conn, and R. Lourenco-de-Oliveira.
 \emph{Anopheles darlingi}. \emph{Memórias do Instituto Oswaldo Cruz} 90:
 769-774.
 }
+\usage{
+Mosquitoes
+}
 \description{
-Weights of female and male mosquitoes (\emph{Anopheles darlingi})
+Weights of female and male mosquitos (\emph{Anopheles darlingi})
 }
 \references{
 \url{http://www.bioline.org.br/request?oc95154}
